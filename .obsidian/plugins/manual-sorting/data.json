@@ -8,6 +8,7 @@
     },
     "Obsidian": {
       "children": [
+        "Obsidian/README.md",
         "Obsidian/attachments",
         "Obsidian/Operating Systems",
         "Obsidian/Pentesting",
@@ -15,7 +16,6 @@
         "Obsidian/Writeups",
         "Obsidian/Computer Networks.md",
         "Obsidian/DBMS.md",
-        "Obsidian/README.md",
         "Obsidian/Rèsume.md",
         "Obsidian/web_analyzer_plan.md",
         "Obsidian/web_analyzer_working_guide.md"
