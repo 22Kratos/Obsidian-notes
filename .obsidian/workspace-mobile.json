@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "24756a81b1efca1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7839ae5d6354fc36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cf47cd43dca4ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/HTB Facts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTB Facts"
+            }
+          },
+          {
+            "id": "ba98f38dfa4e6f26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writeups/HTB Return.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTB Return"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ab00d3b87d7d215",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6e3378a1b63ceb97",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "5cdfba6e1ef99d19",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "216e831522a813ae",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "57d75224fd066542",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "46db6d1da0fa8dc3",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9250432c2330b882",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1b91ebbb0814c74d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Programming Languages/Java.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "ea86bec753c6a771",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Untitled.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "9e22759f8df9eaa4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Untitled.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "syncthing-integration:Open Syncthing conflict manager modal": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ba98f38dfa4e6f26",
+  "lastOpenFiles": [
+    "Writeups/HTB Timelapse.md",
+    "Writeups/HTB Support.md",
+    "Pentesting/Active Directory/Enumeration and Attacks.md",
+    "attachments/Pasted image 20260701090633.png",
+    "attachments/Pasted image 20260628154917.png",
+    "attachments/Pasted image 20260629171715.png",
+    "attachments/Pasted image 20260701103857.png",
+    "attachments/Pasted image 20260628155848.png",
+    "attachments/Pasted image 20260629170738.png",
+    "attachments/Pasted image 20260701103722.png",
+    "attachments/Pasted image 20260701090918.png",
+    "Computer Networks.md",
+    "Programming Languages/Java.md",
+    "Rèsume.md",
+    "Rèsume.docx",
+    "//Rèsume.docx",
+    "Writeups/HTB Facts.md",
+    "DBMS.md",
+    "attachments/Pasted image 20260602225426.png",
+    "attachments/Pasted image 20260602225221.png",
+    "Writeups/Netfire Penetration Testing Report.md",
+    "Writeups/HTB Driver.md",
+    "web_analyzer_working_guide.md",
+    "Technical Writing Project.md",
+    "Operating Systems/Windows/Windows.md",
+    "Operating Systems/Linux.sync-conflict-20260314-114503-3EDWT23.md",
+    "Operating Systems/Linux.md",
+    "Writeups/HTB CCTV.md",
+    "Writeups/pirate.md",
+    "APT Report.md",
+    "Pentesting/Active Directory/Fundamentals.md"
+  ]
+}

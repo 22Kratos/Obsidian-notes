@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "192659daef543dc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "318f944c6d1ce119",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0d5888811a9025f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1687523836c046a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a41e14d9648b392f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12159eccb4aa201e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f9247546faf99618",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cf20456f22e014f2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ca2cf7ef317666fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e5587d97584d56b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddbf581a5cb6a515",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pentesting/Active Directory/Enumeration and Attacks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Enumeration and Attacks"
+            }
+          },
+          {
+            "id": "ca77be3744e3bedf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CompTIA Security+.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CompTIA Security+"
+            }
+          },
+          {
+            "id": "5689d79708536bcf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "335f3053178e9d47",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "edb9be16fccdebd6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CompTIA Security+.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CompTIA Security+"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "syncthing-integration:Open Syncthing conflict manager modal": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "12159eccb4aa201e",
+  "lastOpenFiles": [
+    "Obsidian/README.md",
+    "Obsidian/Rèsume.md",
+    "Obsidian/Computer Networks.md",
+    "Obsidian",
+    "Obsidian/Pentesting/Active Directory/Enumeration and Attacks.md",
+    "Obsidian/Writeups/HTB EscapeTwo.md",
+    "Obsidian/Writeups/HTB Return.md",
+    "Obsidian/Pentesting/Active Directory/Fundamentals.md",
+    "Obsidian/attachments/Pasted image 20260706120304.png",
+    "Obsidian/attachments/Pasted image 20260706120223.png",
+    "Obsidian/Writeups/HTB Support.md",
+    "Obsidian/Writeups/HTB Timelapse.md",
+    "Obsidian/web_analyzer_plan.md",
+    "Obsidian/web_analyzer_working_guide.md",
+    "Obsidian/attachments/Pasted image 20260703125520.png",
+    "Obsidian/attachments/Pasted image 20260703124728.png",
+    "Obsidian/attachments/Pasted image 20260703114937.png",
+    "Obsidian/attachments/Pasted image 20260701103857.png",
+    "Obsidian/attachments/Pasted image 20260701103722.png",
+    "Obsidian/attachments/Pasted image 20260701090918.png",
+    "Obsidian/attachments/Pasted image 20260701090633.png",
+    "Obsidian/attachments/Pasted image 20260629171715.png",
+    "Obsidian/Writeups/HTB WingData.md",
+    "Obsidian/Writeups/pirate.md",
+    "Obsidian/Pentesting/Reverse Engineering/Assembly.md",
+    "Obsidian/Writeups/HTB Smarthire.md",
+    "Obsidian/Writeups/HTB Devhub.md",
+    "Writeups/HTB Connected.md",
+    "Obsidian/Writeups/HTB Reactor.md",
+    "Obsidian/Programming Languages/Java.md",
+    "Obsidian/DBMS.md",
+    "Obsidian/Writeups/HTB Facts.md",
+    "Obsidian/Writeups/HTB Imagery.md",
+    "Untitled.md",
+    "Obsidian/Writeups/HTB Browsed.md",
+    "Obsidian/Writeups/HTB CCTV.md",
+    "Obsidian/Writeups/HTB Driver.md",
+    "Obsidian/Pentesting/Reverse Engineering",
+    "PSLP file",
+    "Obsidian/Writeups",
+    "Obsidian/Pentesting/Active Directory",
+    "Networking",
+    "Obsidian/Pentesting/Web",
+    "Obsidian/Pentesting",
+    "Obsidian/Programming Languages",
+    "Obsidian/Operating Systems/Windows"
+  ]
+}
