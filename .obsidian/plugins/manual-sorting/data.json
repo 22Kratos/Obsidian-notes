@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "Obsidian",
         "attachments",
         "Operating Systems",
         "Pentesting",
@@ -13,81 +12,6 @@
         "Rèsume.md",
         "web_analyzer_plan.md",
         "web_analyzer_working_guide.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Obsidian": {
-      "children": [
-        "Obsidian/README.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Operating Systems": {
-      "children": [
-        "Operating Systems/Windows",
-        "Operating Systems/Linux.md",
-        "Operating Systems/Linux Privilege Escalation.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Operating Systems/Windows": {
-      "children": [
-        "Operating Systems/Windows/Windows.md",
-        "Operating Systems/Windows/Windows Command Line.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Pentesting": {
-      "children": [
-        "Pentesting/Active Directory",
-        "Pentesting/Assembly.md",
-        "Pentesting/Reverse Engineering",
-        "Pentesting/Web"
-      ],
-      "sortOrder": "custom"
-    },
-    "Pentesting/Active Directory": {
-      "children": [
-        "Pentesting/Active Directory/Enumeration and Attacks.md",
-        "Pentesting/Active Directory/Fundamentals.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Pentesting/Reverse Engineering": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Pentesting/Web": {
-      "children": [
-        "Pentesting/Web/Web Request.md",
-        "Pentesting/Web/XSS.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Programming Languages": {
-      "children": [
-        "Programming Languages/Java.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Writeups": {
-      "children": [
-        "Writeups/HTB Browsed.md",
-        "Writeups/HTB Cap.md",
-        "Writeups/HTB CCTV.md",
-        "Writeups/HTB Devhub.md",
-        "Writeups/HTB Driver.md",
-        "Writeups/HTB EscapeTwo.md",
-        "Writeups/HTB Facts.md",
-        "Writeups/HTB Imagery.md",
-        "Writeups/HTB Monitorsfour.md",
-        "Writeups/HTB Reactor.md",
-        "Writeups/HTB Return.md",
-        "Writeups/HTB Smarthire.md",
-        "Writeups/HTB Support.md",
-        "Writeups/HTB Timelapse.md",
-        "Writeups/HTB WingData.md",
-        "Writeups/pirate.md"
       ],
       "sortOrder": "custom"
     },
@@ -275,6 +199,75 @@
         "attachments/psexec-action.gif",
         "attachments/rpcclient.gif",
         "attachments/wmiexec-action.gif"
+      ],
+      "sortOrder": "custom"
+    },
+    "Operating Systems": {
+      "children": [
+        "Operating Systems/Windows",
+        "Operating Systems/Linux.md",
+        "Operating Systems/Linux Privilege Escalation.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Operating Systems/Windows": {
+      "children": [
+        "Operating Systems/Windows/Windows.md",
+        "Operating Systems/Windows/Windows Command Line.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Pentesting": {
+      "children": [
+        "Pentesting/Active Directory",
+        "Pentesting/Assembly.md",
+        "Pentesting/Reverse Engineering",
+        "Pentesting/Web"
+      ],
+      "sortOrder": "custom"
+    },
+    "Pentesting/Active Directory": {
+      "children": [
+        "Pentesting/Active Directory/Enumeration and Attacks.md",
+        "Pentesting/Active Directory/Fundamentals.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Pentesting/Reverse Engineering": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Pentesting/Web": {
+      "children": [
+        "Pentesting/Web/Web Request.md",
+        "Pentesting/Web/XSS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Programming Languages": {
+      "children": [
+        "Programming Languages/Java.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Writeups": {
+      "children": [
+        "Writeups/HTB Browsed.md",
+        "Writeups/HTB Cap.md",
+        "Writeups/HTB CCTV.md",
+        "Writeups/HTB Devhub.md",
+        "Writeups/HTB Driver.md",
+        "Writeups/HTB EscapeTwo.md",
+        "Writeups/HTB Facts.md",
+        "Writeups/HTB Imagery.md",
+        "Writeups/HTB Monitorsfour.md",
+        "Writeups/HTB Reactor.md",
+        "Writeups/HTB Return.md",
+        "Writeups/HTB Smarthire.md",
+        "Writeups/HTB Support.md",
+        "Writeups/HTB Timelapse.md",
+        "Writeups/HTB WingData.md",
+        "Writeups/pirate.md"
       ],
       "sortOrder": "custom"
     }
