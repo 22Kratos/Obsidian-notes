@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Assembly.md",
+                "file": "web_analyzer_working_guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assembly"
+              "title": "web_analyzer_working_guide"
             }
           }
         ]
@@ -184,8 +184,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12159eccb4aa201e",
+  "active": "c0d5888811a9025f",
   "lastOpenFiles": [
+    "Pentesting/Assembly.md",
     "Computer Networks.md",
     "Pentesting/Active Directory/Enumeration and Attacks.md",
     "Obsidian/README.md",
@@ -214,7 +215,6 @@
     "attachments/Pasted image 20260629171715.png",
     "Writeups/HTB WingData.md",
     "Writeups/pirate.md",
-    "Pentesting/Assembly.md",
     "Writeups/HTB Smarthire.md",
     "Writeups/HTB Devhub.md",
     "Writeups/HTB Connected.md",
