@@ -2,7 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
-        "Obsidian"
+        "Obsidian",
+        "web_analyzer_working_guide.md"
       ],
       "sortOrder": "custom"
     },
@@ -17,8 +18,7 @@
         "Obsidian/Computer Networks.md",
         "Obsidian/DBMS.md",
         "Obsidian/Rèsume.md",
-        "Obsidian/web_analyzer_plan.md",
-        "Obsidian/web_analyzer_working_guide.md"
+        "Obsidian/web_analyzer_plan.md"
       ],
       "sortOrder": "custom"
     },
