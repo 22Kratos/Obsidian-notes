@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Active Directory/Enumeration and Attacks.md",
+                "file": "Rèsume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration and Attacks"
+              "title": "Rèsume"
             }
           }
         ]
@@ -187,6 +187,9 @@
   },
   "active": "c0d5888811a9025f",
   "lastOpenFiles": [
+    "DBMS.md",
+    "README.md",
+    "Pentesting/Active Directory/Enumeration and Attacks.md",
     "Writeups/pirate.md",
     "Obsidian/README.md",
     "Obsidian/Rèsume.md",
@@ -221,9 +224,6 @@
     "Obsidian/DBMS.md",
     "Obsidian/Writeups/HTB Facts.md",
     "Obsidian/Writeups/HTB Imagery.md",
-    "Untitled.md",
-    "Obsidian/Writeups/HTB Browsed.md",
-    "Obsidian/Writeups/HTB CCTV.md",
     "Obsidian/Pentesting/Reverse Engineering",
     "PSLP file",
     "Obsidian/Writeups",
