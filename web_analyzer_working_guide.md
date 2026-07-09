@@ -567,6 +567,6 @@ POST /burp/scanner/actions/scan
 4. **Active Scanner** sends payloads to test for vulnerabilities
 5. **Reporter** generates findings in readable formats
 
-asdasdasdasdasdasd
+
 
 
