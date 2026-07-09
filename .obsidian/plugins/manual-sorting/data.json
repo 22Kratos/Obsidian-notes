@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "attachments",
         "Operating Systems",
         "Pentesting",
         "Programming Languages",
@@ -12,7 +11,8 @@
         "README.md",
         "Rèsume.md",
         "web_analyzer_plan.md",
-        "web_analyzer_working_guide.md"
+        "web_analyzer_working_guide.md",
+        "attachments"
       ],
       "sortOrder": "custom"
     },

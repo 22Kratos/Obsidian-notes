@@ -11,10 +11,14 @@
             "id": "c0d5888811a9025f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Pentesting/Active Directory/Enumeration and Attacks.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Enumeration and Attacks"
             }
           }
         ]
@@ -181,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12159eccb4aa201e",
+  "active": "c0d5888811a9025f",
   "lastOpenFiles": [
+    "Writeups/pirate.md",
     "Obsidian/README.md",
     "Obsidian/Rèsume.md",
     "Obsidian/Computer Networks.md",
@@ -219,7 +224,6 @@
     "Untitled.md",
     "Obsidian/Writeups/HTB Browsed.md",
     "Obsidian/Writeups/HTB CCTV.md",
-    "Obsidian/Writeups/HTB Driver.md",
     "Obsidian/Pentesting/Reverse Engineering",
     "PSLP file",
     "Obsidian/Writeups",
