@@ -758,6 +758,7 @@ With a `transparent proxy`, the client doesn't know about its existence. The tra
 
 If it is a `non-transparent proxy`, we must be informed about its existence. For this purpose, we and the software we want to use are given a special proxy configuration that ensures that traffic to the Internet is first addressed to the proxy. If this configuration does not exist, we cannot communicate via the proxy. However, since the proxy usually provides the only communication path to other networks, communication to the Internet is generally cut off without a corresponding proxy configuration.
 
+adsadasdasdasdadasdasdasdsadas
 
 
 
