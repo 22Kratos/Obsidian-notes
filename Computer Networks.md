@@ -731,6 +731,17 @@ Types of proxy services:
 
 ## Dedicated Proxy
 
+A `Forward Proxy` is when a client makes a request to a computer, and that computer carries out the request.
+This can be an incredibly powerful line of defense against malware, as not only does it need to bypass the web filter (easy), but it would also need to be `proxy aware` or use a non-traditional C2.
+
+Web Browsers like Internet Explorer, Edge, or Chrome all obey the "System Proxy" settings by default. If the malware utilizes WinSock (Native Windows API), it will likely be proxy aware without any additional code. Firefox does not use `WinSock` and instead uses `libcurl`, which enables it to use the same code on any operating system. This means that the malware would need to look for Firefox and pull the proxy settings, which malware is highly unlikely to do.
+
+![[Pasted image 20260710163438.png]]
+
+## Reverse Proxy
+
+A `reverse proxy`, is the reverse of a `Forward Proxy`. Instead of being designed to filter outgoing requests, it filters incoming ones. The most common goal with a `Reverse Proxy`, is to listen on an address and forward it to a closed-off network.
+
 
 
 
