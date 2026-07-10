@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_analyzer_working_guide.md",
+                "file": "web_analyzer_plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web_analyzer_working_guide"
+              "title": "web_analyzer_plan"
             }
           }
         ]
@@ -184,8 +184,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12159eccb4aa201e",
+  "active": "c0d5888811a9025f",
   "lastOpenFiles": [
+    "web_analyzer_working_guide.md",
     "Pentesting/Assembly.md",
     "Computer Networks.md",
     "Pentesting/Active Directory/Enumeration and Attacks.md",
@@ -204,7 +205,6 @@
     "Writeups/HTB Support.md",
     "Writeups/HTB Timelapse.md",
     "web_analyzer_plan.md",
-    "web_analyzer_working_guide.md",
     "attachments/Pasted image 20260703125520.png",
     "attachments/Pasted image 20260703124728.png",
     "attachments/Pasted image 20260703114937.png",
