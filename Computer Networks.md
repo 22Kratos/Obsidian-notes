@@ -721,6 +721,15 @@ IPX provides peer-to-peer support connectivity. Like IP, IPX also contains end-u
 
 # Proxies
 
+A proxy is when a device or service sits in the middle of a connection and acts as a mediator. The `mediator` is the critical piece of information because it means the device in the middle must be able to inspect the contents of the traffic. Without the ability to be a `mediator`, the device is technically a `gateway`, not a proxy.
+
+Proxies will almost always operate at `Layer 7 of the OSI Model`. 
+Types of proxy services:
+1. `Dedicated Proxy` / `Forward Proxy`
+2. `Reverse Proxy`
+3. `Transparent Proxy`
+
+## Dedicated Proxy
 
 
 
