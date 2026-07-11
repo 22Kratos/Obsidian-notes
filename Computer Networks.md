@@ -334,6 +334,33 @@ A further separation of these classes into small networks is done with the help 
 | **D**     | 224.0.0.0           | 224.0.0.1         | 239.255.255.255  | `Multicast`      | Multicast | Multicast   | Multicast      |
 | **E**     | 240.0.0.0           | 240.0.0.1         | 255.255.255.255  | `reserved`       | reserved  | reserved    | reserved       |
 
+## Network and Gateway Address
+
+The `two` additional `IPs` added in the `IPs column` are reserved for the so-called `network address` and the `broadcast address`. Another important role plays the `default gateway`, which is the name for the IPv4 address of the `router` that couples networks and systems with different protocols and manages addresses and transmission methods. It is common for the `default gateway` to be assigned the first or last assignable IPv4 address in a subnet. This is not a technical requirement, but has become a de-facto standard in network environments of all sizes.
+
+## Broadcast Address
+
+The `broadcast` IP address's task is to connect all devices in a network with each other. `Broadcast` in a network is a message that is transmitted to all participants of a network and does not require any response. In this way, a host sends a data packet to all other participants of the network simultaneously and, in doing so, communicates its `IP address`, which the receivers can use to contact it. This is the `last IPv4` address that is used for the `broadcast`.
+
+## Binary System in IPv4
+
+An IPv4 address is divided into 4 octets. Each `octet` consists of `8 bits`. Each position of a bit in an octet has a specific decimal value.
+
+IPv4 Address: `192.168.10.39`
+
+### 1st Octet - Value: 192
+
+```
+Values:         128  64  32  16  8  4  2  1
+Binary:           1   1   0   0  0  0  0  0
+```
+
+| **Octet** | **Values**                       | **Sum** |
+| --------- | -------------------------------- | ------- |
+| 1st       | 128 + 64 + 0 + 0 + 0 + 0 + 0 + 0 | = `192` |
+| 2nd       | 128 + 0 + 32 + 0 + 8 + 0 + 0 + 0 | = `168` |
+| 3rd       | 0 + 0 + 0 + 0 + 8 + 0 + 2 + 0    | = `10`  |
+| 4th       | 0 + 0 + 32 + 0 + 0 + 4 + 2 + 1   | = `39`  |
 
 # Ports
 
