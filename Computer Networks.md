@@ -142,6 +142,16 @@ The `Application Layer` of the TCP/IP model contains protocols that offer specif
 
 ![[Pasted image 20260128161252.png]]
 
+The most Important tasks of `TCP/IP` are:
+
+| **Task**               | **Protocol** | **Description**                                                                                                                                                                                                                                                                                                                        |
+| ---------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Logical Addressing`   | `IP`         | Due to many hosts in different networks, there is a need to structure the network topology and logical addressing. Within TCP/IP, IP takes over the logical addressing of networks and nodes. Data packets only reach the network where they are supposed to be. The methods to do so are `network classes`, `subnetting`, and `CIDR`. |
+| `Routing`              | `IP`         | For each data packet, the next node is determined in each node on the way from the sender to the receiver. This way, a data packet is routed to its receiver, even if its location is unknown to the sender.                                                                                                                           |
+| `Error & Control Flow` | `TCP`        | The sender and receiver are frequently in touch with each other via a virtual connection. Therefore control messages are sent continuously to check if the connection is still established.                                                                                                                                            |
+| `Application Support`  | `TCP`        | TCP and UDP ports form a software abstraction to distinguish specific applications and their communication links.                                                                                                                                                                                                                      |
+| `Name Resolution`      | `DNS`        | DNS provides name resolution through Fully Qualified Domain Names (FQDN) in IP addresses, enabling us to reach the desired host with the specified name on the internet.                                                                                                                                                               |
+
 # Comparison
 
 ![[Pasted image 20260128161307.png]]
@@ -160,6 +170,14 @@ During the transmission, each layer adds a `header` to the `PDU` from the upper 
 
 ![[Pasted image 20260711123627.png]]
 
+# Network Layer
+
+The `network layer` (`Layer 3`) of `OSI` controls the exchange of data packets, as these cannot be directly routed to the receiver and therefore have to be provided with routing nodes. The data packets are then transferred from node to node until they reach their target. To implement this, the `network layer` identifies the individual network nodes, sets up and clears connection channels, and takes care of routing and data flow control. When sending the packets, addresses are evaluated, and the data is routed through the network from node to node. There is usually no processing of the data in the layers above the `L3` in the nodes. Based on the addresses, the routing and the construction of routing tables are done.
+
+In short, it is responsible for the following functions:
+
+- `Logical Addressing`
+- `Routing`
 # Protocols
 
 `Protocols` are standardized rules that determine the formatting and processing of data to facilitate communication between devices in a network.
