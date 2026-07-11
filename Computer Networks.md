@@ -362,6 +362,25 @@ Binary:           1   1   0   0  0  0  0  0
 | 3rd       | 0 + 0 + 0 + 0 + 8 + 0 + 2 + 0    | = `10`  |
 | 4th       | 0 + 0 + 32 + 0 + 0 + 4 + 2 + 1   | = `39`  |
 
+## CIDR
+
+`Classless Inter-Domain Routing` (`CIDR`) is a method of representation and replaces the fixed assignment between IPv4 address and network classes (A, B, C, D, E). The division is based on the subnet mask or the so-called `CIDR suffix`, which allows the bitwise division of the IPv4 address space and thus into `subnets` of any size. The `CIDR suffix` indicates how many bits from the beginning of the IPv4 address belong to the network. It is a notation that represents the `subnet mask` by specifying the number of `1`-bits in the subnet mask.
+
+- IPv4 Address: `192.168.10.39`
+- Subnet mask: `255.255.255.0`
+- CIDR: `192.168.10.39/24`
+
+The CIDR suffix is, therefore, the sum of all ones in the subnet mask.
+
+```
+Octet:             1st         2nd         3rd         4th
+Binary:         1111 1111 . 1111 1111 . 1111 1111 . 0000 0000 (/24)
+Decimal:           255    .    255    .    255    .     0
+```
+
+# Subnetting
+
+
 # Ports
 
 A `port` is a number assigned to specific processes or services on a network to help computers sort and direct network traffic correctly. It functions at the `Transport Layer (Layer 4)` of the OSI model and works with protocols such as TCP and UDP. Ports facilitate the simultaneous operation of multiple network services on a single IP address by differentiating traffic intended for different applications.
