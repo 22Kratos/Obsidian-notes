@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_analyzer_plan.md",
+                "file": "a05_injection_guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web_analyzer_plan"
+              "title": "a05_injection_guide"
             }
           }
         ]
@@ -186,9 +186,9 @@
   },
   "active": "c0d5888811a9025f",
   "lastOpenFiles": [
+    "web_analyzer_plan.md",
     "a05_injection_guide.md",
     "web_analyzer_working_guide.md",
-    "web_analyzer_plan.md",
     "Computer Networks.md",
     "attachments/Pasted image 20260711123627.png",
     "attachments/Pasted image 20260711123539.png",
