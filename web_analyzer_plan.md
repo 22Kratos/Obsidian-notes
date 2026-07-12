@@ -612,3 +612,56 @@ src/web_analyzer/
 - JSON output must be valid and schema-consistent
 - Integrate all modules in `main.py`
 - Handle keyboard interrupts gracefully
+
+```
+web_analyzer/
+├── pyproject.toml
+├── requirements.txt
+│
+├── src/web_analyzer/
+│   ├── __init__.py
+│   ├── main.py              # Entry point (Member 4)
+│   │
+│   ├── core/                # Shared utilities
+│   │   ├── http_client.py   # httpx async wrapper
+│   │   ├── url_parser.py    # URL normalization
+│   │   ├── config.py        # CLI arguments
+│   │   ├── robots.py        # robots.txt parser
+│   │   └── rate_limiter.py  # Request throttling
+│   │
+│   ├── crawler/             # MEMBER 1
+│   │   ├── spider.py        # Main crawler
+│   │   ├── html_parser.py   # BeautifulSoup extraction
+│   │   ├── js_parser.py    # JavaScript analysis
+│   │   └── queue.py        # URL deduplication
+│   │
+│   ├── auth/                # Authentication
+│   │   ├── login.py         # Form-based login
+│   │   ├── session.py       # Cookie/token management
+│   │   └── bearer.py        # API key/Bearer auth
+│   │
+│   ├── scanners/            # MEMBER 3
+│   │   ├── base.py          # Scanner base class
+│   │   ├── a01_access_control.py 
+│   │   ├── a02_misconfig.py 
+│   │   ├── a04_crypto.py 
+│   │   ├── a05_injection.py 
+│   │   ├── a06_insecure_design.py 
+│   │   ├── a07_auth.py 
+│   │   ├── a09_logging.py 
+│   │   └── a10_exceptions.py 
+│   │
+│   ├── output/              # MEMBER 4
+│   │   ├── cli.py           # CLI table output
+│   │   ├── json_report.py   # JSON export
+│   │   ├── severity.py      # CVSS scoring
+│   │   └── poc.py           # Proof of concept
+│   │
+│   └── utils/
+│       └── encoder.py       # Base64, URL, HTML encoding
+│
+└── tests/
+    ├── test_crawler.py
+    ├── test_scanners.py
+    └── test_output.py
+```
