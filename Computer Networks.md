@@ -380,6 +380,8 @@ Decimal:           255    .    255    .    255    .     0
 
 # Subnetting
 
+The division of an address range of IPv4 addresses into several smaller address ranges is called `subnetting`.
+
 
 # Ports
 
