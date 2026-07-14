@@ -286,6 +286,14 @@ servers play a crucial role by hosting services that clients access (i.e., web p
 # MAC Address
 
 A `Media Access Control (MAC) address` is a unique identifier assigned to the network interface card (NIC) of a device, allowing it to be recognized on a local network. Operating at the `Data Link Layer (Layer 2)` of the OSI model. Each MAC address is 48 bits long and is typically represented in hexadecimal format, appearing as six pairs of hexadecimal digits separated by colons or hyphens (e.g., `00:1A:2B:3C:4D:5E`). The uniqueness of a MAC address comes from its structure: the first 24 bits represent the `Organizationally Unique Identifier (OUI)` assigned to the manufacturer, while the remaining 24 bits are specific to the individual device.
+
+There are several different standards for the MAC address:
+
+- Ethernet (IEEE 802.3)
+- Bluetooth (IEEE 802.15)
+- WLAN (IEEE 802.11)
+
+
 ![[Pasted image 20260128183213.png]]
 
 # IP Address
