@@ -381,6 +381,29 @@ Decimal:           255    .    255    .    255    .     0
 # Subnetting
 
 The division of an address range of IPv4 addresses into several smaller address ranges is called `subnetting`.
+A subnet is a logical segment of a network that uses IP addresses with the same network address. We can think of a subnet as a labeled entrance on a large building corridor.
+
+With the help of subnetting, we can create a specific subnet by ourselves or find out the following outline of the respective network:
+
+- `Network address`
+- `Broadcast address`
+- `First host`
+- `Last host`
+- `Number of hosts`
+
+- IPv4 Address: `192.168.12.160`
+- Subnet Mask: `255.255.255.192`
+- CIDR: `192.168.12.160/26`
+
+IP address is divided into the `network part` and the `host part`.
+
+### Network Part
+
+| **Details of** | **1st Octet** | **2nd Octet** | **3rd Octet** | **4th Octet** | **Decimal**         |
+| -------------- | ------------- | ------------- | ------------- | ------------- | ------------------- |
+| IPv4           | `1100 0000`   | `1010 1000`   | `0000 1100`   | `10`10 0000   | 192.168.12.160`/26` |
+| Subnet mask    | `1111 1111`   | `1111 1111`   | `1111 1111`   | `11`00 0000   | `255.255.255.192`   |
+| Bits           | /8            | /16           | /24           | /32           |                     |
 
 
 # Ports
