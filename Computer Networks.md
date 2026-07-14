@@ -421,11 +421,51 @@ The `subnet mask` determines where this separation occurs.
 
 ### Seperation of Network and Host Parts
 
-| **Details of** | **1st Octet** | **2nd Octet** | **3rd Octet** | **4th Octet**   | **Decimal**       |
-| -------------- | ------------- | ------------- | ------------- | --------------- | ----------------- |
-| IPv4           | 1100 0000     | 1010 1000     | 0000 1100     | 10 `\|`10 0000  | 192.168.12.160/26 |
-| Subnet mask    | `1111 1111`   | `1111 1111`   | `1111 1111`   | `11 \|` 00 0000 | 255.255.255.192   |
-| Bits           | /8            | /16           | /24           | /32             |                   |
+| **Details of** | **1st Octet** | **2nd Octet** | **3rd Octet** | **4th Octet** | **Decimal**       |
+| -------------- | ------------- | ------------- | ------------- | ------------- | ----------------- |
+| IPv4           | 1100 0000     | 1010 1000     | 0000 1100     | 10`\|`10 0000 | 192.168.12.160/26 |
+| Subnet mask    | `1111 1111`   | `1111 1111`   | `1111 1111`   | `11\|`00 0000 | 255.255.255.192   |
+| Bits           | /8            | /16           | /24           | /32           |                   |
+### Network Address
+
+So if we now set all bits to `0` in the `host part` of the IPv4 address, we get the respective subnet's `network address`.
+
+| **Details of** | **1st Octet** | **2nd Octet** | **3rd Octet** | **4th Octet** | **Decimal**         |
+| -------------- | ------------- | ------------- | ------------- | ------------- | ------------------- |
+| IPv4           | 1100 0000     | 1010 1000     | 0000 1100     | 10`\|00 0000` | `192.168.12.128`/26 |
+| Subnet mask    | `1111 1111`   | `1111 1111`   | `1111 1111`   | `11\|`00 0000 | 255.255.255.192     |
+| Bits           | /8            | /16           | /24           | /32           |                     |
+### Broadcast Address
+
+If we set all bits in the `host part` of the IPv4 address to `1`, we get the `broadcast address`.
+
+| **Details of** | **1st Octet** | **2nd Octet** | **3rd Octet** | **4th Octet** | **Decimal**         |
+| -------------- | ------------- | ------------- | ------------- | ------------- | ------------------- |
+| IPv4           | 1100 0000     | 1010 1000     | 0000 1100     | 10`\|11 1111` | `192.168.12.191`/26 |
+| Subnet mask    | `1111 1111`   | `1111 1111`   | `1111 1111`   | `11\|`00 0000 | 255.255.255.192     |
+| Bits           | /8            | /16           | /24           | /32           |                     |
+Since we now know that the IPv4 addresses `192.168.12.128` and `192.168.12.191` are assigned, all other IPv4 addresses are accordingly between `192.168.12.129-190`. Now we know that this subnet offers us a total of `64 - 2` (network address & broadcast address) or `62` IPv4 addresses that we can assign to our hosts.
+
+| **Hosts**         | **IPv4**         |
+| ----------------- | ---------------- |
+| Network Address   | `192.168.12.128` |
+| First Host        | `192.168.12.129` |
+| Other Hosts       | `...`            |
+| Last Host         | `192.168.12.190` |
+| Broadcast Address | `192.168.12.191` |
+## Subnetting Into Smaller Networks
+
+| **Exponent** | **Value** |
+| ------------ | --------- |
+| 2`^0`        | = 1       |
+| 2`^1`        | = 2       |
+| 2`^2`        | = 4       |
+| 2`^3`        | = 8       |
+| 2`^4`        | = 16      |
+| 2`^5`        | = 32      |
+| 2`^6`        | = 64      |
+| 2`^7`        | = 128     |
+| 2`^8`        | = 256     |
 
 # Ports
 
