@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "Tools",
         "a05_injection_guide.md",
         "Writeups",
         "Programming Languages",
@@ -253,6 +254,13 @@
     "Programming Languages": {
       "children": [
         "Programming Languages/Java.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Tools": {
+      "children": [
+        "Tools/Metasploit.md",
+        "Tools/Nmap.md"
       ],
       "sortOrder": "custom"
     },
