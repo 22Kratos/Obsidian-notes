@@ -1242,4 +1242,16 @@ The most common VoIP ports are `TCP/5060` and `TCP/5061`, which are used for the
 |`REGISTER`|Registers a SIP user agent (UA) with a SIP server.|
 |`OPTIONS`|Requests information about the capabilities of a SIP server or user agent, such as the types of media it supports.|
 
+# Wireless Networks
+
+Wireless networks use radio frequency (`RF`) technology to transmit data between devices. Each device on a wireless network has a wireless adapter that converts data into RF signals and sends them over the air. Other devices on the network receive these signals with their own wireless adapters, and the data is then converted back into a usable form.
+
+A local area network (LAN) that covers a small area, such as a home or small office, might use a wireless technology called `WiFi`, which has a range of a few hundred feet.
+
+On the other hand, a wireless wide area network (`WWAN`) might use mobile telecommunication technology such as cellular data (`3G`, `4G LTE`, `5G`), which can cover a much larger area, such as an entire city or region.
+
+Communication between devices occurs over RF in the `2.4 GHz` or `5 GHz` bands in a WiFi network. When a device, like a laptop, wants to send data over the network, it first communicates with the [Wireless Access Point](https://en.wikipedia.org/wiki/Wireless_access_point) (`WAP`) to request permission to transmit. The WAP is a central device, like a router, that connects the wireless network to a wired network and controls access to the network. Once the WAP grants permission, the transmitting device sends the data as RF signals, which are received by the wireless adapters of other devices on the network. The data is then converted back into a usable form and passed on to the appropriate application or system.
+
+## Wifi Connection
+
 
