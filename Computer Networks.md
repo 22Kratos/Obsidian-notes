@@ -74,7 +74,31 @@ At the TCP/IP layer, a VPN connection typically uses the [Encapsulating Security
 
 ## IPSec
 
-`Internet Protocol Security` is a network security protocol that provides encryption and
+`Internet Protocol Security` is a network security protocol that provides encryption and authentication for internet communications by encrypting the data payload of each IP packet and adding an `authentication header` (`AH`), which is used to verify the integrity and authenticity of the packet.
+Uses a combination of 2 protocols for encryption and authentication:
+
+1. `Authentication Header`: This protocol provides integrity and authenticity for IP packets but does not provide encryption. It adds an authentication header to each IP packet, which contains a cryptographic checksum that can be used to verify that the packet has not been tampered with.
+2. `Encapsulating Security Payload (ESP)`: This protocol provides encryption and optional authentication for IP packets. It encrypts the data payload of each IP packet and optionally adds an authentication header, similar to AH.
+
+Can be used in 2 modes:
+
+| **Mode**         | **Description**                                                                                                                                                                                    |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Transport Mode` | In this mode, IPsec encrypts and authenticates the data payload of each IP packet but does not encrypt the IP header. This is typically used to secure end-to-end communication between two hosts. |
+| `Tunnel Mode`    | With this mode, IPsec encrypts and authenticates the entire IP packet, including the IP header. This is typically used to create a VPN tunnel between two networks.                                |
+
+| **Protocol**                             | **Port**                                  | **Description**                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Internet Protocol` (`IP`)               | IP protocol numbers `50–51` (`ESP`, `AH`) | This is the primary protocol that provides the foundation for all internet communication. It is used to route packets of data between the VPN client and the VPN server. In the context of IPsec, protocol numbers 50 (ESP) and 51 (AH) identify VPN-related headers used between the VPN client and the VPN server. |
+| `Internet Key Exchange` (`IKE`)          | `UDP/500`                                 | IKE is a protocol that is used to establish and maintain secure communication between the VPN client and the VPN server. It is based on the Diffie-Hellman key exchange algorithm, and it is used to negotiate and establish shared secret keys that can be used to encrypt and decrypt the VPN traffic.             |
+| `Encapsulating Security Payload` (`ESP`) | IP protocol `50` _(NAT-T: `UDP/4500`)_    | ESP is also a protocol that provides encryption and authentication for IP datagrams. It is used to encrypt the VPN traffic between the VPN client and the VPN server, using the keys that were negotiated with IKE, either directly as IP protocol 50 or encapsulated in UDP/4500 when NAT traversal is used.        |
+
+## PPTP (Point-to-Point Tunneling Protocol)
+
+`network protocol that enables the creation of VPNs by establishing a secure tunnel between the VPN client and server, encapsulating the data transmitted within this tunnel.`
+
+Due to its known vulnerabilities, PPTP is no longer considered secure. It can tunnel protocols such as IP, IPX, or NetBEUI via IP, but has been largely replaced by more secure VPN protocols like L2TP/IPsec, IPsec/IKEv2, and OpenVPN.
+
 
 ### Site-to-Site VPN
 
