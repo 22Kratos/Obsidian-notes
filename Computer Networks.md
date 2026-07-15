@@ -1428,3 +1428,52 @@ Main limitations of the `Diffie-Hellman` key exchange is that it is vulnerable t
 ## RSA
 
 [Rivest–Shamir–Adleman](https://web.archive.org/web/20240302211950/https://venafi.com/blog/how-diffie-hellman-key-exchange-different-rsa/) (`RSA`) algorithm, uses the properties of large prime numbers to generate a shared secret key. Relies on the fact that it is relatively easy to multiply large prime numbers together but challenging to factor the resulting number back into its prime factors.
+Widely used in many other applications and protocols that require secure communication and data protection, including:
+
+- Encrypting and signing messages to provide confidentiality and authentication
+- Protecting data in transit over networks, such as in the [Secure Socket Layer](https://www.cloudflare.com/learning/ssl/what-is-ssl/) (`SSL`) and `TLS` protocols
+- Generating and verifying digital signatures, which are used to provide authenticity and integrity for electronic documents and other digital data
+- Authenticating users and devices, such as in the [Public Key Cryptography for Initial Authentication in Kerberos](https://www.ietf.org/rfc/rfc4556.txt) (`PKINIT`) protocol used by the Kerberos network authentication system
+- Protecting sensitive information, such as in the encryption of personal data and confidential documents
+
+## ECDH(Elliptic Curve Diffie-Hellman)
+
+Variant of Diffie-Hellman key exchange that uses elliptic curve cryptography (`ECC`) to generate the shared secret key. Advantage of being more efficient and secure than the original Diffie-Hellman algorithm, including:
+- Establishing secure communication channels, such as in the `TLS` protocol
+- Providing forward secrecy, which ensures that past communications cannot be revealed even if the private keys are compromised
+- Authenticating users and devices, such as in the [Internet Key Exchange](https://docs.oracle.com/cd/E19683-01/816-7264/6md9iem1g/index.html) (`IKE`) protocol used in VPNs
+
+## ECDSA
+
+The [Elliptic Curve Digital Signature Algorithm](https://www.hypr.com/security-encyclopedia/elliptic-curve-digital-signature-algorithm) (`ECDSA`) uses elliptic curve cryptography (`ECC`) to generate digital signatures that can authenticate the parties involved in the key exchange.
+
+## Summary
+
+|**Algorithm**|**Acronym**|**Security**|
+|---|---|---|
+|`Diffie-Hellman`|`DH`|Secure with strong params and authentication; slower than `ECDH` at similar security|
+|`Rivest–Shamir–Adleman`|`RSA`|Widely used and considered secure with adequate key sizes; more computationally heavy than `ECC` at comparable security levels|
+|`Elliptic Curve Diffie-Hellman`|`ECDH`|Provides enhanced security and speed compared to traditional `Diffie-Hellman`|
+|`Elliptic Curve Digital Signature Algorithm`|`ECDSA`|Provides enhanced security and efficiency for digital signature generation|
+
+## Internet Key Exchange (IKE)
+
+`Protocol used to establish and maintain secure communication sessions, such as those used in VPNs.`
+
+Uses a combination of the `Diffie-Hellman` key exchange algorithm and `other cryptographic techniques` to securely exchange keys and negotiate security parameters. Key component of many VPN solutions, as it enables the secure exchange of keys and other security information between the VPN client and server. Allows the VPN to establish an encrypted tunnel through which data can be transmitted securely. 
+
+IKE can also be used for other purposes, such as in the authentication of users and devices. Typically used in conjunction with other protocols and algorithms, such as the RSA algorithm for key exchange and digital signatures, and the [Advanced Encryption Standard](https://www.geeksforgeeks.org/advanced-encryption-standard-aes/) (`AES`) for data encryption.
+
+IKE operates either in `main mode` or `aggressive mode`. These modes determine the sequence and parameters of the key exchange process and can affect the security and performance of the IKE session.
+
+### Main Mode
+
+`Main mode` is the default mode for `IKE` and is generally considered `more secure` than the aggressive mode. The key exchange process is performed in `three phases` in the main mode, each exchanging a different set of security parameters and keys. This allows for greater flexibility and security but can also result in slower performance compared to aggressive mode.
+
+### Aggressive Mode
+
+`Aggressive mode` is an alternative mode for `IKE` that provides `faster performance` by reducing the number of round trips and message exchanges required for key exchange. In this mode, the key exchange process is performed in `two phases`, with all security parameters and keys being exchanged in the first phase. However, this can provide faster performance but may also reduce the security of the IKE session compared to the main mode since the `aggressive mode` does not provide identity protection.
+
+### Pre-Shared Keys
+
+
