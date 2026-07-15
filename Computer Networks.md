@@ -1267,3 +1267,5 @@ The `SSID` can be hidden by disabling broadcasting. That means that devices that
 
 In addition to the `IEEE 802.11` protocol, other networking protocols and technologies may also be used, like TCP/IP, DHCP, and WPA2, in a WiFi network to perform tasks such as assigning IP addresses to devices, routing traffic between devices, and providing security.
 
+### WEP Challenge-Response Handshake
+
