@@ -1417,7 +1417,22 @@ EAP-TLS is a security protocol used to authenticate and encrypt wireless communi
 
 # Vendor Specific Information
 
+[Cisco IOS](https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-technologies/index.html) is the operating system of Cisco network devices such as routers and switches. It provides features and services required to manage and operate network devices. This operating system comes in different versions and releases that vary in features, support, and performance. It offers several features required for the operation of modern networks, such as, but not limited to:
 
+- Support for IPv6
+- Quality of Service (QoS)
+- Security features such as encryption and authentication
+- Virtualization features such as Virtual Private LAN Service (VPLS)
+- Virtual Routing and Forwarding (VRF)
+
+Cisco IOS can be managed in several ways, depending on the network device and hardware used. The most commonly used method is the command line interface (`CLI`), which can also be managed in the graphical user interface (`GUI`). In addition, it supports various network protocols and services required for network operations. These include:
+
+|**Protocol Type**|**Description**|
+|---|---|
+|`Routing protocols`|Such as [OSPF](https://en.wikipedia.org/wiki/Open_Shortest_Path_First) and [BGP](https://en.wikipedia.org/wiki/Border_Gateway_Protocol) are used to route data packets on a network.|
+|`Switching protocols`|Such as [VLAN Trunking Protocol](https://en.wikipedia.org/wiki/VLAN_Trunking_Protocol) (`VTP`) and [Spanning Tree Protocol](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol) (`STP`) is used to configure and manage switches on a network.|
+|`Network services`|Such as [Dynamic Host Configuration Protocol](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) (`DHCP`) are used to automatically provide clients on the network with IP addresses and other network configurations.|
+|`Security features`|Such as [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) (`ACLs`), which are used to control access to network resources and prevent security threats.|
 
 
 
