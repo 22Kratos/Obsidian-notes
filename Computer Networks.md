@@ -509,6 +509,39 @@ Since we now know that the IPv4 addresses `192.168.12.128` and `192.168.12.191` 
 | 2`^8`        | = 256     |
 # IPv6 Addresses
 
+`IPv6` is the successor of IPv4. It is `128 bit` long. The `prefix` identifies the host and network parts. The Internet Assigned Numbers Authority (`IANA`) is responsible for assigning IPv4 and IPv6 addresses and their associated network portions. IPv4 and IPv6 can be made available simultaneously (`Dual Stack`).
+
+IPv6 consistently follows the `end-to-end` principle and provides publicly accessible IP addresses for any end devices without the need for NAT. Consequently, an interface can have multiple IPv6 addresses, and there are special IPv6 addresses to which multiple interfaces are assigned.
+
+IPv6 has many new features and advantages over IPv4:
+
+- Larger address space
+- Address self-configuration (SLAAC)
+- Multiple IPv6 addresses per interface
+- Faster routing
+- End-to-end encryption (IPsec)
+- Data packages up to 4 GByte
+
+| **Features**       | **IPv4**      | **IPv6**                     |
+| ------------------ | ------------- | ---------------------------- |
+| Bit length         | 32-bit        | 128 bit                      |
+| OSI layer          | Network Layer | Network Layer                |
+| Adressing range    | ~ 4.3 billion | ~ 340 undecillion            |
+| Representation     | Decimal       | Hexadecimal                  |
+| Prefix notation    | 10.10.10.0/24 | fe80::dd80:b1a9:6687:2d3b/64 |
+| Dynamic addressing | DHCP          | SLAAC / DHCPv6               |
+| IPsec              | Optional      | Mandatory                    |
+Three different types of IPv6:
+
+| **Type**    | **Description**                                                                |
+| ----------- | ------------------------------------------------------------------------------ |
+| `Unicast`   | Addresses for a single interface.                                              |
+| `Anycast`   | Addresses for multiple interfaces, where only one of them receives the packet. |
+| `Multicast` | Addresses for multiple interfaces, where all receive the same packet.          |
+```
+NOTE: IPv6 eliminates the broadcast address. Instead, IPv6 uses multicast addresses to support discovery and communication with multiple nodes.
+```
+
 
 # Ports
 
