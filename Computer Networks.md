@@ -1269,3 +1269,39 @@ In addition to the `IEEE 802.11` protocol, other networking protocols and techno
 
 ### WEP Challenge-Response Handshake
 
+|**Step**|**Who**|**Description**|
+|---|---|---|
+|1|`Client`|Sends an association request packet to the WAP, requesting access.|
+|2|`WAP`|Responds with an association response packet to the client, which includes a challenge string.|
+|3|`Client`|Calculates a response to the challenge string and a shared secret key and sends it back to the WAP.|
+|4|`WAP`|Calculates the expected response to the challenge with the same shared secret key and sends an authentication response packet to the client.|
+Nevertheless, some packets can get lost, so the so-called `CRC` checksum has been integrated. [Cyclic Redundancy Check](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) (`CRC`) is an error-detection mechanism used in the WEP protocol to protect against data corruption in wireless communications. A CRC value is calculated for each packet transmitted over the wireless network based on the packet's data. It is used to verify the integrity of the data. When the destination device receives the packet, the CRC value is recalculated and compared to the original value. If the values match, the data has been transmitted successfully without any errors. However, if the values do not match, the data has been corrupted and needs to be re-transmitted.
+
+The design of the `CRC` mechanism has a flaw that allows us to decrypt a single packet `without` knowing the `encryption key`. This is because the `CRC` value is calculated using the `plaintext` data in the packet rather than the encrypted data.
+
+## Security Features
+
+Some of the leading security features include but are not limited to:
+
+- Encryption
+- Access Control
+- Firewall
+
+### Encryption
+
+We can use various encryption algorithms to protect the confidentiality of data transmitted over wireless networks. The most common encryption algorithms in WiFi networks are [Wired Equivalent Privacy](https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy) (`WEP`), [WiFi Protected Access 2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA2) (`WPA2`), and [WiFi Protected Access 3](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA3) (`WPA3`).
+
+### Access Control
+
+WiFi networks are configured by default to allow authorized devices to join the network using specific authentication methods. However, these methods can be changed by requiring a password or a unique identifier (such as a MAC address) to identify authorized devices.
+
+### Firewall
+
+A firewall is a security system that controls incoming and outgoing network traffic based on predetermined security rules. For example, WiFi routers often have built-in firewalls that can block incoming traffic from the Internet and protect against various types of cyber threats.
+
+## Encryption Protocols
+
+[Wired Equivalent Privacy](https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy) (`WEP`) and [WiFi Protected Access](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) (`WPA`) are encryption protocols that secure data transmitted over a WiFi network. WPA can use different encryption algorithms, including [Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (`AES`).
+
+### WEP
+
