@@ -1242,4 +1242,4 @@ The most common VoIP ports are `TCP/5060` and `TCP/5061`, which are used for the
 |`REGISTER`|Registers a SIP user agent (UA) with a SIP server.|
 |`OPTIONS`|Requests information about the capabilities of a SIP server or user agent, such as the types of media it supports.|
 
-	
+
