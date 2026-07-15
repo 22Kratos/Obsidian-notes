@@ -1106,15 +1106,10 @@ If it is a `non-transparent proxy`, we must be informed about its existence. For
 |Internet Key Exchange|`IKE`|IKE is a protocol used to set up a secure connection between two computers. It is used in virtual private networks (VPNs) to provide authentication and encryption for data transmission, protecting the data from outside eavesdropping and tampering.|
 |Generic Routing Encapsulation|`GRE`|This protocol is used to encapsulate the data being transmitted within the VPN tunnel.|
 |Remote Shell|`RSH`|It is a program under Unix that allows executing commands and programs on a remote computer.|
+# Common Protocols
 
+The two main types of connections used on networks are [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) (`TCP`) and [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol) (`UDP`).
 
-
-
-
-
-
-
-
-
+## Transmission Control Protocol (TCP)
 
 
