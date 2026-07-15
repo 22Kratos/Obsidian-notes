@@ -311,7 +311,24 @@ There exist several attack vectors that can potentially be exploited through the
 
 ARP is an important part of the network communication process because it allows devices to send and receive data using MAC addresses rather than IP addresses, which can be more efficient. Two types of request messages can be used:
 
-- `ARP R`
+- `ARP Request`: When a device wants to communicate with another device on a LAN, it sends an ARP request to resolve the destination device's IP address to its MAC address. The request is broadcast to all devices on the LAN and contains the IP address of the destination device. The device with the matching IP address responds with its MAC address.
+- `ARP Reply`: When a device receives an ARP request, it sends an ARP reply to the requesting device with its MAC address. The reply message contains the IP and MAC addresses of both the requesting and the responding devices.
+### Packets of ARP Request
+
+```
+1   0.000000 10.129.12.100 -> 10.129.12.255 ARP 60  Who has 10.129.12.101?  Tell 10.129.12.100
+2   0.000015 10.129.12.101 -> 10.129.12.100 ARP 60  10.129.12.101 is at AA:AA:AA:AA:AA:AA
+
+3   0.000030 10.129.12.102 -> 10.129.12.255 ARP 60  Who has 10.129.12.103?  Tell 10.129.12.102
+4   0.000045 10.129.12.103 -> 10.129.12.102 ARP 60  10.129.12.103 is at BB:BB:BB:BB:BB:BB
+```
+
+The "`who has`" message in the first and third lines indicates that a device is requesting the MAC address for the specified IP address, while the second and fourth lines show the ARP reply with the MAC address of the destination device.
+
+It is vulnerable to `ARP Spoofing`, which can be used to intercept or manipulate traffic on the network. 
+
+`ARP spoofing`, also known as `ARP cache poisoning` or `ARP poison routing`, is an attack that can be done using tools like [Ettercap](https://github.com/Ettercap/ettercap) or [Cain & Abel](https://github.com/xchwarze/Cain) in which we send falsified ARP messages over a LAN. The goal is to associate our MAC address with the IP address of a legitimate device on the company's network, effectively allowing us to intercept traffic intended for the legitimate device. We can use ARP poisoning to perform various activities, such as stealing sensitive information, redirecting traffic, or launching MITM attacks.
+
 # IP Address
 
 An `Internet Protocol (IP) address` is a numerical label assigned to each device connected to a network that utilizes the Internet Protocol for communication. Functioning at the `Network Layer (Layer 3)` of the OSI model.
@@ -490,6 +507,8 @@ Since we now know that the IPv4 addresses `192.168.12.128` and `192.168.12.191` 
 | 2`^6`        | = 64      |
 | 2`^7`        | = 128     |
 | 2`^8`        | = 256     |
+# IPv6 Addresses
+
 
 # Ports
 
