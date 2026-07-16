@@ -246,8 +246,20 @@
     },
     "Pentesting/Web": {
       "children": [
+        "Pentesting/Web/API",
         "Pentesting/Web/Web Request.md",
         "Pentesting/Web/XSS.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Pentesting/Web/API": {
+      "children": [
+        "Pentesting/Web/API/API Attacks.md",
+        "Pentesting/Web/API/Broken Object Level Authorization.md",
+        "Pentesting/Web/API/Broken Authentication.md",
+        "Pentesting/Web/API/Broken Object Property Level Authorization.md",
+        "Pentesting/Web/API/Unrestricted Resource Consumption.md",
+        "Pentesting/Web/API/Untitled.md"
       ],
       "sortOrder": "custom"
     },
