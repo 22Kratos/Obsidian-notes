@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pentesting/Web/API/Broken Object Level Authorization.md",
+                "file": "Pentesting/Web/API/Broken Authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Broken Object Level Authorization"
+              "title": "Broken Authentication"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "c0d5888811a9025f",
   "lastOpenFiles": [
-    "Pentesting/Web/API/API Attacks Intro.md",
     "Pentesting/Web/API/Broken Object Level Authorization.md",
+    "Pentesting/Web/API/API Attacks Intro.md",
     "Pentesting/Web/API/Unsafe Consumption of APIs.md",
     "Pentesting/Web/API/Improper Inventory Management.md",
     "Pentesting/Web/API/Security Misconfiguration.md",
