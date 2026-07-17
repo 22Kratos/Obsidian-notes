@@ -254,7 +254,6 @@
     },
     "Pentesting/Web/API": {
       "children": [
-        "Pentesting/Web/API/Unsafe Consumption of APIs.md",
         "Pentesting/Web/API/API Attacks Intro.md",
         "Pentesting/Web/API/Broken Object Level Authorization.md",
         "Pentesting/Web/API/Broken Authentication.md",
@@ -264,7 +263,8 @@
         "Pentesting/Web/API/Unrestricted Access to Sensitive Business Flows.md",
         "Pentesting/Web/API/Server Side Request Forgery.md",
         "Pentesting/Web/API/Security Misconfiguration.md",
-        "Pentesting/Web/API/Improper Inventory Management.md"
+        "Pentesting/Web/API/Improper Inventory Management.md",
+        "Pentesting/Web/API/Unsafe Consumption of APIs.md"
       ],
       "sortOrder": "custom"
     },
