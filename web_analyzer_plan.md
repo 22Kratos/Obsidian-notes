@@ -39,10 +39,10 @@ web_analyzer/
 │   │   └── rate_limiter.py  # Request throttling
 │   │
 │   ├── crawler/             # MEMBER 1
-│   │   ├── spider.py        # Main crawler
+│   │   ├── spider.py        # Main crawler # shruti
 │   │   ├── html_parser.py   # BeautifulSoup extraction # ayush
 │   │   ├── js_parser.py    # JavaScript analysis # pushkar
-│   │   └── queue.py        # URL deduplication 
+│   │   └── queue.py        # URL deduplication # shruti
 │   │
 │   ├── auth/                # Authentication
 │   │   ├── login.py         # Form-based login
@@ -67,7 +67,7 @@ web_analyzer/
 │   │   └── poc.py           # Proof of concept
 │   │
 │   └── utils/
-│       └── encoder.py       # Base64, URL, HTML encoding
+│       └── encoder.py       # Base64, URL, HTML encoding # tejas
 │
 └── tests/
     ├── test_crawler.py
