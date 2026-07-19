@@ -186,8 +186,8 @@
   },
   "active": "c0d5888811a9025f",
   "lastOpenFiles": [
-    "web_analyzer_plan.md",
     "Tools/Nmap.md",
+    "web_analyzer_plan.md",
     "Pentesting/Web/API/Broken Authentication.md",
     "Pentesting/Web/API/Broken Object Level Authorization.md",
     "Pentesting/Web/API/API Attacks Intro.md",
