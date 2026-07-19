@@ -40,9 +40,9 @@ web_analyzer/
 │   │
 │   ├── crawler/             # MEMBER 1
 │   │   ├── spider.py        # Main crawler
-│   │   ├── html_parser.py   # BeautifulSoup extraction
-│   │   ├── js_parser.py    # JavaScript analysis
-│   │   └── queue.py        # URL deduplication
+│   │   ├── html_parser.py   # BeautifulSoup extraction # ayush
+│   │   ├── js_parser.py    # JavaScript analysis # pushkar
+│   │   └── queue.py        # URL deduplication 
 │   │
 │   ├── auth/                # Authentication
 │   │   ├── login.py         # Form-based login
