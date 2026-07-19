@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_analyzer_plan.md",
+                "file": "Tools/Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web_analyzer_plan"
+              "title": "Nmap"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ca2cf7ef317666fe",
@@ -187,6 +186,7 @@
   },
   "active": "c0d5888811a9025f",
   "lastOpenFiles": [
+    "web_analyzer_plan.md",
     "Tools/Nmap.md",
     "Pentesting/Web/API/Broken Authentication.md",
     "Pentesting/Web/API/Broken Object Level Authorization.md",
@@ -206,7 +206,6 @@
     "Tools/Metasploit.md",
     "a05_injection_guide.md",
     "Tools",
-    "web_analyzer_plan.md",
     "DBMS.md",
     "web_analyzer_working_guide.md",
     "attachments/Pasted image 20260711123627.png",
