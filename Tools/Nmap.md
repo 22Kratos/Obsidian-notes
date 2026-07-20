@@ -9,3 +9,9 @@ There are a total of 6 different states for a scanned port we can obtain:
 |`open\|filtered`|If we do not get a response for a specific port, `Nmap` will set it to that state. This indicates that a firewall or packet filter may protect the port.|
 |`closed\|filtered`|This state only occurs in the **IP ID idle** scans and indicates that it was impossible to determine if the scanned port is closed or filtered by a firewall.|
 By default, nmap scans top 1000 ports with `-sS`
+Ports can be defined one by one (`-p 22,25,80,139,445`), by range (`-p 22-445`), by top ports (`--top-ports=10`)
+For all ports scan, `-p-`
+
+## Connect Scan
+
+
