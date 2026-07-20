@@ -22,4 +22,11 @@ Since `UDP` is a `stateless protocol` and does not require a three-way handshake
 
 `For version scan, we use -sV`
 
+## Outputting formats
+
+- Normal output (`-oN`) with the `.nmap` file extension
+- Grepable output (`-oG`) with the `.gnmap` file extension
+- XML output (`-oX`) with the `.xml` file extension
+- All formats (`-oA`) 
+
 
