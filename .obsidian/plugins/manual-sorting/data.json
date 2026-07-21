@@ -284,6 +284,7 @@
     },
     "Writeups": {
       "children": [
+        "Writeups/HTB Bedside.md",
         "Writeups/HTB Browsed.md",
         "Writeups/HTB Cap.md",
         "Writeups/HTB CCTV.md",
