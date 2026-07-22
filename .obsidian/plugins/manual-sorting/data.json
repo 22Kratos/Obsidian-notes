@@ -228,7 +228,6 @@
       "children": [
         "Pentesting/Active Directory",
         "Pentesting/Assembly.md",
-        "Pentesting/Reverse Engineering",
         "Pentesting/Web"
       ],
       "sortOrder": "custom"
@@ -238,10 +237,6 @@
         "Pentesting/Active Directory/Enumeration and Attacks.md",
         "Pentesting/Active Directory/Fundamentals.md"
       ],
-      "sortOrder": "custom"
-    },
-    "Pentesting/Reverse Engineering": {
-      "children": [],
       "sortOrder": "custom"
     },
     "Pentesting/Web": {
