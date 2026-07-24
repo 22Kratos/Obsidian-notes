@@ -19,6 +19,7 @@
     },
     "attachments": {
       "children": [
+        "attachments/Pasted image 20260723132428.png",
         "attachments/Pasted image 20260711123233.png",
         "attachments/Pasted image 20260711123539.png",
         "attachments/Pasted image 20260711123627.png",
@@ -226,6 +227,7 @@
     },
     "Pentesting": {
       "children": [
+        "Pentesting/Footprinting.md",
         "Pentesting/Active Directory",
         "Pentesting/Assembly.md",
         "Pentesting/Web"
